@@ -1,0 +1,1207 @@
+文件夹 PATH 列表
+卷序列号为 00740064 C6EB:1C46
+C:.
+├─.gradle
+│  ├─4.6
+│  │  ├─fileChanges
+│  │  ├─fileHashes
+│  │  └─taskHistory
+│  ├─5.1.1
+│  │  ├─executionHistory
+│  │  ├─fileChanges
+│  │  ├─fileContent
+│  │  ├─fileHashes
+│  │  ├─javaCompile
+│  │  └─vcsMetadata-1
+│  ├─buildOutputCleanup
+│  ├─vcs-1
+│  └─vcsWorkingDirs
+├─bin
+│  └─windows
+├─build
+│  ├─libs
+│  └─tmp
+│      └─jar
+├─checkstyle
+├─clients
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      ├─main
+│  │  │      │  └─org
+│  │  │      │      └─apache
+│  │  │      │          └─kafka
+│  │  │      │              ├─clients
+│  │  │      │              │  ├─admin
+│  │  │      │              │  │  └─internals
+│  │  │      │              │  ├─consumer
+│  │  │      │              │  │  └─internals
+│  │  │      │              │  └─producer
+│  │  │      │              │      └─internals
+│  │  │      │              ├─common
+│  │  │      │              │  ├─acl
+│  │  │      │              │  ├─annotation
+│  │  │      │              │  ├─cache
+│  │  │      │              │  ├─config
+│  │  │      │              │  │  ├─internals
+│  │  │      │              │  │  ├─provider
+│  │  │      │              │  │  └─types
+│  │  │      │              │  ├─errors
+│  │  │      │              │  ├─header
+│  │  │      │              │  │  └─internals
+│  │  │      │              │  ├─internals
+│  │  │      │              │  ├─memory
+│  │  │      │              │  ├─message
+│  │  │      │              │  ├─metrics
+│  │  │      │              │  │  └─stats
+│  │  │      │              │  ├─network
+│  │  │      │              │  ├─protocol
+│  │  │      │              │  │  └─types
+│  │  │      │              │  ├─record
+│  │  │      │              │  ├─requests
+│  │  │      │              │  ├─resource
+│  │  │      │              │  ├─security
+│  │  │      │              │  │  ├─auth
+│  │  │      │              │  │  ├─authenticator
+│  │  │      │              │  │  ├─kerberos
+│  │  │      │              │  │  ├─oauthbearer
+│  │  │      │              │  │  │  └─internals
+│  │  │      │              │  │  │      ├─expiring
+│  │  │      │              │  │  │      └─unsecured
+│  │  │      │              │  │  ├─plain
+│  │  │      │              │  │  │  └─internals
+│  │  │      │              │  │  ├─scram
+│  │  │      │              │  │  │  └─internals
+│  │  │      │              │  │  ├─ssl
+│  │  │      │              │  │  └─token
+│  │  │      │              │  │      └─delegation
+│  │  │      │              │  │          └─internals
+│  │  │      │              │  ├─serialization
+│  │  │      │              │  └─utils
+│  │  │      │              └─server
+│  │  │      │                  ├─policy
+│  │  │      │                  └─quota
+│  │  │      └─test
+│  │  │          └─org
+│  │  │              └─apache
+│  │  │                  └─kafka
+│  │  │                      ├─clients
+│  │  │                      │  ├─admin
+│  │  │                      │  │  └─internals
+│  │  │                      │  ├─consumer
+│  │  │                      │  │  └─internals
+│  │  │                      │  └─producer
+│  │  │                      │      └─internals
+│  │  │                      ├─common
+│  │  │                      │  ├─acl
+│  │  │                      │  ├─cache
+│  │  │                      │  ├─config
+│  │  │                      │  │  └─provider
+│  │  │                      │  ├─header
+│  │  │                      │  │  └─internals
+│  │  │                      │  ├─internals
+│  │  │                      │  ├─memory
+│  │  │                      │  ├─message
+│  │  │                      │  ├─metrics
+│  │  │                      │  │  └─stats
+│  │  │                      │  ├─network
+│  │  │                      │  ├─protocol
+│  │  │                      │  │  └─types
+│  │  │                      │  ├─record
+│  │  │                      │  ├─requests
+│  │  │                      │  ├─resource
+│  │  │                      │  ├─security
+│  │  │                      │  │  ├─auth
+│  │  │                      │  │  ├─authenticator
+│  │  │                      │  │  ├─kerberos
+│  │  │                      │  │  ├─oauthbearer
+│  │  │                      │  │  │  └─internals
+│  │  │                      │  │  │      ├─expiring
+│  │  │                      │  │  │      └─unsecured
+│  │  │                      │  │  ├─plain
+│  │  │                      │  │  │  └─internals
+│  │  │                      │  │  ├─scram
+│  │  │                      │  │  │  └─internals
+│  │  │                      │  │  └─ssl
+│  │  │                      │  ├─serialization
+│  │  │                      │  └─utils
+│  │  │                      └─test
+│  │  ├─kafka
+│  │  ├─libs
+│  │  ├─resources
+│  │  │  ├─main
+│  │  │  │  ├─common
+│  │  │  │  │  └─message
+│  │  │  │  └─META-INF
+│  │  │  │      └─services
+│  │  │  └─test
+│  │  │      └─serializedData
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      ├─compileTestJava
+│  │      └─jar
+│  └─src
+│      ├─generated
+│      │  └─java
+│      │      └─org
+│      │          └─apache
+│      │              └─kafka
+│      │                  └─common
+│      │                      └─message
+│      ├─main
+│      │  ├─java
+│      │  │  └─org
+│      │  │      └─apache
+│      │  │          └─kafka
+│      │  │              ├─clients
+│      │  │              │  ├─admin
+│      │  │              │  │  └─internals
+│      │  │              │  ├─consumer
+│      │  │              │  │  └─internals
+│      │  │              │  └─producer
+│      │  │              │      └─internals
+│      │  │              ├─common
+│      │  │              │  ├─acl
+│      │  │              │  ├─annotation
+│      │  │              │  ├─cache
+│      │  │              │  ├─config
+│      │  │              │  │  ├─internals
+│      │  │              │  │  ├─provider
+│      │  │              │  │  └─types
+│      │  │              │  ├─errors
+│      │  │              │  ├─header
+│      │  │              │  │  └─internals
+│      │  │              │  ├─internals
+│      │  │              │  ├─memory
+│      │  │              │  ├─metrics
+│      │  │              │  │  └─stats
+│      │  │              │  ├─network
+│      │  │              │  ├─protocol
+│      │  │              │  │  └─types
+│      │  │              │  ├─record
+│      │  │              │  ├─requests
+│      │  │              │  ├─resource
+│      │  │              │  ├─security
+│      │  │              │  │  ├─auth
+│      │  │              │  │  ├─authenticator
+│      │  │              │  │  ├─kerberos
+│      │  │              │  │  ├─oauthbearer
+│      │  │              │  │  │  └─internals
+│      │  │              │  │  │      ├─expiring
+│      │  │              │  │  │      └─unsecured
+│      │  │              │  │  ├─plain
+│      │  │              │  │  │  └─internals
+│      │  │              │  │  ├─scram
+│      │  │              │  │  │  └─internals
+│      │  │              │  │  ├─ssl
+│      │  │              │  │  └─token
+│      │  │              │  │      └─delegation
+│      │  │              │  │          └─internals
+│      │  │              │  ├─serialization
+│      │  │              │  └─utils
+│      │  │              └─server
+│      │  │                  ├─policy
+│      │  │                  └─quota
+│      │  └─resources
+│      │      ├─common
+│      │      │  └─message
+│      │      └─META-INF
+│      │          └─services
+│      └─test
+│          ├─java
+│          │  └─org
+│          │      └─apache
+│          │          └─kafka
+│          │              ├─clients
+│          │              │  ├─admin
+│          │              │  │  └─internals
+│          │              │  ├─consumer
+│          │              │  │  └─internals
+│          │              │  └─producer
+│          │              │      └─internals
+│          │              ├─common
+│          │              │  ├─acl
+│          │              │  ├─cache
+│          │              │  ├─config
+│          │              │  │  └─provider
+│          │              │  ├─header
+│          │              │  │  └─internals
+│          │              │  ├─internals
+│          │              │  ├─memory
+│          │              │  ├─message
+│          │              │  ├─metrics
+│          │              │  │  └─stats
+│          │              │  ├─network
+│          │              │  ├─protocol
+│          │              │  │  └─types
+│          │              │  ├─record
+│          │              │  ├─requests
+│          │              │  ├─resource
+│          │              │  ├─security
+│          │              │  │  ├─auth
+│          │              │  │  ├─authenticator
+│          │              │  │  ├─kerberos
+│          │              │  │  ├─oauthbearer
+│          │              │  │  │  └─internals
+│          │              │  │  │      ├─expiring
+│          │              │  │  │      └─unsecured
+│          │              │  │  ├─plain
+│          │              │  │  │  └─internals
+│          │              │  │  ├─scram
+│          │              │  │  │  └─internals
+│          │              │  │  └─ssl
+│          │              │  ├─serialization
+│          │              │  └─utils
+│          │              └─test
+│          └─resources
+│              └─serializedData
+├─config
+├─connect
+│  ├─api
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─connect
+│  │  │  │                          ├─components
+│  │  │  │                          ├─connector
+│  │  │  │                          ├─data
+│  │  │  │                          ├─errors
+│  │  │  │                          ├─header
+│  │  │  │                          ├─health
+│  │  │  │                          ├─rest
+│  │  │  │                          ├─sink
+│  │  │  │                          ├─source
+│  │  │  │                          ├─storage
+│  │  │  │                          ├─transforms
+│  │  │  │                          └─util
+│  │  │  ├─dependant-libs
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  └─java
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─connect
+│  │      │                      ├─components
+│  │      │                      ├─connector
+│  │      │                      ├─data
+│  │      │                      ├─errors
+│  │      │                      ├─header
+│  │      │                      ├─health
+│  │      │                      ├─rest
+│  │      │                      ├─sink
+│  │      │                      ├─source
+│  │      │                      ├─storage
+│  │      │                      ├─transforms
+│  │      │                      └─util
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─connect
+│  │                              ├─connector
+│  │                              ├─data
+│  │                              ├─header
+│  │                              ├─sink
+│  │                              ├─source
+│  │                              ├─storage
+│  │                              └─util
+│  ├─basic-auth-extension
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─connect
+│  │  │  │                          └─rest
+│  │  │  │                              └─basic
+│  │  │  │                                  └─auth
+│  │  │  │                                      └─extension
+│  │  │  ├─dependant-libs
+│  │  │  ├─libs
+│  │  │  ├─resources
+│  │  │  │  └─main
+│  │  │  │      └─META-INF
+│  │  │  │          └─services
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  ├─java
+│  │      │  │  └─org
+│  │      │  │      └─apache
+│  │      │  │          └─kafka
+│  │      │  │              └─connect
+│  │      │  │                  └─rest
+│  │      │  │                      └─basic
+│  │      │  │                          └─auth
+│  │      │  │                              └─extension
+│  │      │  └─resources
+│  │      │      └─META-INF
+│  │      │          └─services
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─connect
+│  │                              └─rest
+│  │                                  └─basic
+│  │                                      └─auth
+│  │                                          └─extension
+│  ├─build
+│  │  ├─libs
+│  │  └─tmp
+│  │      └─jar
+│  ├─file
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─connect
+│  │  │  │                          └─file
+│  │  │  ├─dependant-libs
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  └─java
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─connect
+│  │      │                      └─file
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─connect
+│  │                              └─file
+│  ├─json
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─connect
+│  │  │  │                          └─json
+│  │  │  ├─dependant-libs
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  └─java
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─connect
+│  │      │                      └─json
+│  │      └─test
+│  │          ├─java
+│  │          │  └─org
+│  │          │      └─apache
+│  │          │          └─kafka
+│  │          │              └─connect
+│  │          │                  └─json
+│  │          └─resources
+│  ├─runtime
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─connect
+│  │  │  │                          ├─cli
+│  │  │  │                          ├─converters
+│  │  │  │                          ├─runtime
+│  │  │  │                          │  ├─distributed
+│  │  │  │                          │  ├─errors
+│  │  │  │                          │  ├─health
+│  │  │  │                          │  ├─isolation
+│  │  │  │                          │  ├─rest
+│  │  │  │                          │  │  ├─entities
+│  │  │  │                          │  │  ├─errors
+│  │  │  │                          │  │  ├─resources
+│  │  │  │                          │  │  └─util
+│  │  │  │                          │  └─standalone
+│  │  │  │                          ├─storage
+│  │  │  │                          ├─tools
+│  │  │  │                          └─util
+│  │  │  ├─dependant-libs
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  └─java
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─connect
+│  │      │                      ├─cli
+│  │      │                      ├─converters
+│  │      │                      ├─runtime
+│  │      │                      │  ├─distributed
+│  │      │                      │  ├─errors
+│  │      │                      │  ├─health
+│  │      │                      │  ├─isolation
+│  │      │                      │  ├─rest
+│  │      │                      │  │  ├─entities
+│  │      │                      │  │  ├─errors
+│  │      │                      │  │  ├─resources
+│  │      │                      │  │  └─util
+│  │      │                      │  └─standalone
+│  │      │                      ├─storage
+│  │      │                      ├─tools
+│  │      │                      └─util
+│  │      └─test
+│  │          ├─java
+│  │          │  └─org
+│  │          │      └─apache
+│  │          │          └─kafka
+│  │          │              └─connect
+│  │          │                  ├─converters
+│  │          │                  ├─integration
+│  │          │                  ├─runtime
+│  │          │                  │  ├─distributed
+│  │          │                  │  ├─errors
+│  │          │                  │  ├─isolation
+│  │          │                  │  ├─rest
+│  │          │                  │  │  ├─entities
+│  │          │                  │  │  ├─resources
+│  │          │                  │  │  └─util
+│  │          │                  │  └─standalone
+│  │          │                  ├─storage
+│  │          │                  └─util
+│  │          │                      └─clusters
+│  │          └─resources
+│  │              └─META-INF
+│  │                  └─services
+│  └─transforms
+│      ├─build
+│      │  ├─classes
+│      │  │  └─java
+│      │  │      └─main
+│      │  │          └─org
+│      │  │              └─apache
+│      │  │                  └─kafka
+│      │  │                      └─connect
+│      │  │                          └─transforms
+│      │  │                              └─util
+│      │  ├─dependant-libs
+│      │  ├─libs
+│      │  └─tmp
+│      │      ├─compileJava
+│      │      └─jar
+│      └─src
+│          ├─main
+│          │  └─java
+│          │      └─org
+│          │          └─apache
+│          │              └─kafka
+│          │                  └─connect
+│          │                      └─transforms
+│          │                          └─util
+│          └─test
+│              └─java
+│                  └─org
+│                      └─apache
+│                          └─kafka
+│                              └─connect
+│                                  └─transforms
+│                                      └─util
+├─core
+│  ├─build
+│  │  ├─classes
+│  │  │  └─scala
+│  │  │      ├─main
+│  │  │      │  └─kafka
+│  │  │      │      ├─admin
+│  │  │      │      ├─api
+│  │  │      │      ├─cluster
+│  │  │      │      ├─common
+│  │  │      │      ├─consumer
+│  │  │      │      ├─controller
+│  │  │      │      ├─coordinator
+│  │  │      │      │  ├─group
+│  │  │      │      │  └─transaction
+│  │  │      │      ├─log
+│  │  │      │      ├─message
+│  │  │      │      ├─metrics
+│  │  │      │      ├─network
+│  │  │      │      ├─security
+│  │  │      │      │  └─auth
+│  │  │      │      ├─serializer
+│  │  │      │      ├─server
+│  │  │      │      │  ├─checkpoints
+│  │  │      │      │  └─epoch
+│  │  │      │      ├─tools
+│  │  │      │      ├─utils
+│  │  │      │      │  ├─json
+│  │  │      │      │  └─timer
+│  │  │      │      ├─zk
+│  │  │      │      └─zookeeper
+│  │  │      └─test
+│  │  │          ├─kafka
+│  │  │          │  ├─admin
+│  │  │          │  ├─api
+│  │  │          │  │  └─test
+│  │  │          │  ├─cluster
+│  │  │          │  ├─common
+│  │  │          │  ├─controller
+│  │  │          │  ├─coordinator
+│  │  │          │  │  ├─group
+│  │  │          │  │  └─transaction
+│  │  │          │  ├─integration
+│  │  │          │  ├─log
+│  │  │          │  ├─metrics
+│  │  │          │  ├─network
+│  │  │          │  ├─security
+│  │  │          │  │  ├─auth
+│  │  │          │  │  ├─minikdc
+│  │  │          │  │  └─token
+│  │  │          │  │      └─delegation
+│  │  │          │  ├─server
+│  │  │          │  │  ├─checkpoints
+│  │  │          │  │  └─epoch
+│  │  │          │  │      └─util
+│  │  │          │  ├─tools
+│  │  │          │  ├─utils
+│  │  │          │  │  ├─json
+│  │  │          │  │  └─timer
+│  │  │          │  ├─zk
+│  │  │          │  └─zookeeper
+│  │  │          └─unit
+│  │  │              └─kafka
+│  │  │                  └─utils
+│  │  ├─dependant-libs-2.12.8
+│  │  ├─libs
+│  │  ├─resources
+│  │  │  └─test
+│  │  ├─scoverage
+│  │  └─tmp
+│  │      ├─compileScala
+│  │      ├─compileTestScala
+│  │      ├─jar
+│  │      └─scala
+│  │          └─compilerAnalysis
+│  └─src
+│      ├─main
+│      │  └─scala
+│      │      └─kafka
+│      │          ├─admin
+│      │          ├─api
+│      │          ├─cluster
+│      │          ├─common
+│      │          ├─consumer
+│      │          ├─controller
+│      │          ├─coordinator
+│      │          │  ├─group
+│      │          │  └─transaction
+│      │          ├─log
+│      │          ├─message
+│      │          ├─metrics
+│      │          ├─network
+│      │          ├─security
+│      │          │  └─auth
+│      │          ├─serializer
+│      │          ├─server
+│      │          │  ├─checkpoints
+│      │          │  └─epoch
+│      │          ├─tools
+│      │          ├─utils
+│      │          │  ├─json
+│      │          │  └─timer
+│      │          ├─zk
+│      │          └─zookeeper
+│      └─test
+│          ├─resources
+│          └─scala
+│              ├─integration
+│              │  └─kafka
+│              │      ├─admin
+│              │      ├─api
+│              │      ├─network
+│              │      ├─server
+│              │      └─tools
+│              ├─kafka
+│              │  ├─common
+│              │  ├─security
+│              │  │  ├─auth
+│              │  │  └─minikdc
+│              │  ├─tools
+│              │  ├─utils
+│              │  └─zk
+│              ├─other
+│              │  └─kafka
+│              └─unit
+│                  └─kafka
+│                      ├─admin
+│                      ├─api
+│                      ├─cluster
+│                      ├─common
+│                      ├─controller
+│                      ├─coordinator
+│                      │  ├─group
+│                      │  └─transaction
+│                      ├─integration
+│                      ├─log
+│                      ├─metrics
+│                      ├─network
+│                      ├─security
+│                      │  ├─auth
+│                      │  └─token
+│                      │      └─delegation
+│                      ├─server
+│                      │  ├─checkpoints
+│                      │  └─epoch
+│                      │      └─util
+│                      ├─tools
+│                      ├─utils
+│                      │  ├─json
+│                      │  └─timer
+│                      ├─zk
+│                      └─zookeeper
+├─docs
+│  ├─documentation
+│  │  └─streams
+│  │      └─developer-guide
+│  ├─generated
+│  ├─images
+│  │  └─icons
+│  ├─js
+│  └─streams
+│      └─developer-guide
+├─examples
+│  ├─bin
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      └─main
+│  │  │          └─kafka
+│  │  │              └─examples
+│  │  ├─libs
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      └─jar
+│  └─src
+│      └─main
+│          └─java
+│              └─kafka
+│                  └─examples
+├─generator
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      └─main
+│  │  │          └─org
+│  │  │              └─apache
+│  │  │                  └─kafka
+│  │  │                      └─message
+│  │  ├─libs
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      └─jar
+│  └─src
+│      ├─main
+│      │  └─java
+│      │      └─org
+│      │          └─apache
+│      │              └─kafka
+│      │                  └─message
+│      └─test
+│          └─java
+│              └─org
+│                  └─apache
+│                      └─kafka
+│                          └─message
+├─gradle
+│  ├─resources
+│  └─wrapper
+├─jmh-benchmarks
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      └─main
+│  │  │          ├─META-INF
+│  │  │          └─org
+│  │  │              └─apache
+│  │  │                  └─kafka
+│  │  │                      └─jmh
+│  │  │                          ├─cache
+│  │  │                          │  └─generated
+│  │  │                          ├─common
+│  │  │                          │  └─generated
+│  │  │                          ├─producer
+│  │  │                          │  └─generated
+│  │  │                          └─record
+│  │  │                              └─generated
+│  │  ├─libs
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      └─jar
+│  └─src
+│      └─main
+│          └─java
+│              └─org
+│                  └─apache
+│                      └─kafka
+│                          └─jmh
+│                              ├─cache
+│                              ├─common
+│                              ├─producer
+│                              └─record
+├─kafka-bin
+│  ├─bin
+│  │  └─windows
+│  ├─config
+│  ├─libs
+│  ├─logs
+│  └─site-docs
+├─log4j-appender
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      └─main
+│  │  │          └─org
+│  │  │              └─apache
+│  │  │                  └─kafka
+│  │  │                      └─log4jappender
+│  │  ├─libs
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      └─jar
+│  └─src
+│      ├─main
+│      │  └─java
+│      │      └─org
+│      │          └─apache
+│      │              └─kafka
+│      │                  └─log4jappender
+│      └─test
+│          └─java
+│              └─org
+│                  └─apache
+│                      └─kafka
+│                          └─log4jappender
+├─logs
+├─streams
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      └─main
+│  │  │          └─org
+│  │  │              └─apache
+│  │  │                  └─kafka
+│  │  │                      └─streams
+│  │  │                          ├─errors
+│  │  │                          ├─internals
+│  │  │                          ├─kstream
+│  │  │                          │  └─internals
+│  │  │                          │      ├─graph
+│  │  │                          │      ├─metrics
+│  │  │                          │      └─suppress
+│  │  │                          ├─processor
+│  │  │                          │  └─internals
+│  │  │                          │      ├─assignment
+│  │  │                          │      └─metrics
+│  │  │                          └─state
+│  │  │                              └─internals
+│  │  │                                  └─metrics
+│  │  ├─dependant-libs-2.12.8
+│  │  ├─libs
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      └─jar
+│  ├─examples
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─streams
+│  │  │  │                          └─examples
+│  │  │  │                              ├─pageview
+│  │  │  │                              ├─pipe
+│  │  │  │                              ├─temperature
+│  │  │  │                              └─wordcount
+│  │  │  ├─dependant-libs-2.12.8
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  └─java
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─streams
+│  │      │                      └─examples
+│  │      │                          ├─pageview
+│  │      │                          ├─pipe
+│  │      │                          ├─temperature
+│  │      │                          └─wordcount
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─examples
+│  │                                  └─wordcount
+│  ├─quickstart
+│  │  └─java
+│  │      └─src
+│  │          ├─main
+│  │          │  └─resources
+│  │          │      ├─archetype-resources
+│  │          │      │  └─src
+│  │          │      │      └─main
+│  │          │      │          ├─java
+│  │          │      │          └─resources
+│  │          │      └─META-INF
+│  │          │          └─maven
+│  │          └─test
+│  │              └─resources
+│  │                  └─projects
+│  │                      └─basic
+│  ├─src
+│  │  ├─main
+│  │  │  └─java
+│  │  │      └─org
+│  │  │          └─apache
+│  │  │              └─kafka
+│  │  │                  └─streams
+│  │  │                      ├─errors
+│  │  │                      ├─internals
+│  │  │                      ├─kstream
+│  │  │                      │  └─internals
+│  │  │                      │      ├─graph
+│  │  │                      │      ├─metrics
+│  │  │                      │      └─suppress
+│  │  │                      ├─processor
+│  │  │                      │  └─internals
+│  │  │                      │      ├─assignment
+│  │  │                      │      └─metrics
+│  │  │                      └─state
+│  │  │                          └─internals
+│  │  │                              └─metrics
+│  │  └─test
+│  │      ├─java
+│  │      │  └─org
+│  │      │      └─apache
+│  │      │          └─kafka
+│  │      │              ├─streams
+│  │      │              │  ├─errors
+│  │      │              │  ├─integration
+│  │      │              │  │  └─utils
+│  │      │              │  ├─internals
+│  │      │              │  ├─kstream
+│  │      │              │  │  └─internals
+│  │      │              │  │      ├─graph
+│  │      │              │  │      └─suppress
+│  │      │              │  ├─perf
+│  │      │              │  ├─processor
+│  │      │              │  │  └─internals
+│  │      │              │  │      ├─assignment
+│  │      │              │  │      ├─metrics
+│  │      │              │  │      └─testutil
+│  │      │              │  ├─state
+│  │      │              │  │  └─internals
+│  │      │              │  ├─tests
+│  │      │              │  └─tools
+│  │      │              └─test
+│  │      └─resources
+│  ├─streams-scala
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─scala
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─streams
+│  │  │  │                          └─scala
+│  │  │  │                              └─kstream
+│  │  │  ├─dependant-libs-2.12.8
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileScala
+│  │  │      ├─jar
+│  │  │      └─scala
+│  │  │          └─compilerAnalysis
+│  │  └─src
+│  │      ├─main
+│  │      │  └─scala
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─streams
+│  │      │                      └─scala
+│  │      │                          └─kstream
+│  │      └─test
+│  │          ├─resources
+│  │          └─scala
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─scala
+│  │                                  ├─kstream
+│  │                                  └─utils
+│  ├─test-utils
+│  │  ├─build
+│  │  │  ├─classes
+│  │  │  │  └─java
+│  │  │  │      └─main
+│  │  │  │          └─org
+│  │  │  │              └─apache
+│  │  │  │                  └─kafka
+│  │  │  │                      └─streams
+│  │  │  │                          ├─internals
+│  │  │  │                          ├─processor
+│  │  │  │                          └─test
+│  │  │  ├─dependant-libs-2.12.8
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      ├─compileJava
+│  │  │      └─jar
+│  │  └─src
+│  │      ├─main
+│  │      │  └─java
+│  │      │      └─org
+│  │      │          └─apache
+│  │      │              └─kafka
+│  │      │                  └─streams
+│  │      │                      ├─internals
+│  │      │                      ├─processor
+│  │      │                      └─test
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              ├─internals
+│  │                              └─test
+│  ├─upgrade-system-tests-0100
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  ├─upgrade-system-tests-0101
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  ├─upgrade-system-tests-0102
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  ├─upgrade-system-tests-0110
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  ├─upgrade-system-tests-10
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  ├─upgrade-system-tests-11
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  ├─upgrade-system-tests-20
+│  │  ├─build
+│  │  │  ├─libs
+│  │  │  └─tmp
+│  │  │      └─jar
+│  │  └─src
+│  │      └─test
+│  │          └─java
+│  │              └─org
+│  │                  └─apache
+│  │                      └─kafka
+│  │                          └─streams
+│  │                              └─tests
+│  └─upgrade-system-tests-21
+│      ├─build
+│      │  ├─libs
+│      │  └─tmp
+│      │      └─jar
+│      └─src
+│          └─test
+│              └─java
+│                  └─org
+│                      └─apache
+│                          └─kafka
+│                              └─streams
+│                                  └─tests
+├─tests
+│  ├─bin
+│  ├─docker
+│  │  └─ssh
+│  ├─kafkatest
+│  │  ├─benchmarks
+│  │  │  ├─core
+│  │  │  └─streams
+│  │  ├─directory_layout
+│  │  ├─sanity_checks
+│  │  ├─services
+│  │  │  ├─kafka
+│  │  │  │  └─templates
+│  │  │  ├─monitor
+│  │  │  ├─performance
+│  │  │  │  └─templates
+│  │  │  ├─security
+│  │  │  │  └─templates
+│  │  │  ├─templates
+│  │  │  └─trogdor
+│  │  │      └─templates
+│  │  ├─tests
+│  │  │  ├─client
+│  │  │  ├─connect
+│  │  │  │  └─templates
+│  │  │  ├─core
+│  │  │  ├─streams
+│  │  │  └─tools
+│  │  └─utils
+│  ├─spec
+│  └─unit
+│      ├─directory_layout
+│      └─version
+├─tools
+│  ├─build
+│  │  ├─classes
+│  │  │  └─java
+│  │  │      └─main
+│  │  │          └─org
+│  │  │              └─apache
+│  │  │                  └─kafka
+│  │  │                      ├─tools
+│  │  │                      └─trogdor
+│  │  │                          ├─agent
+│  │  │                          ├─basic
+│  │  │                          ├─common
+│  │  │                          ├─coordinator
+│  │  │                          ├─fault
+│  │  │                          ├─rest
+│  │  │                          ├─task
+│  │  │                          └─workload
+│  │  ├─dependant-libs-2.12.8
+│  │  ├─libs
+│  │  └─tmp
+│  │      ├─compileJava
+│  │      └─jar
+│  └─src
+│      ├─main
+│      │  └─java
+│      │      └─org
+│      │          └─apache
+│      │              └─kafka
+│      │                  ├─tools
+│      │                  └─trogdor
+│      │                      ├─agent
+│      │                      ├─basic
+│      │                      ├─common
+│      │                      ├─coordinator
+│      │                      ├─fault
+│      │                      ├─rest
+│      │                      ├─task
+│      │                      └─workload
+│      └─test
+│          ├─java
+│          │  └─org
+│          │      └─apache
+│          │          └─kafka
+│          │              ├─tools
+│          │              └─trogdor
+│          │                  ├─agent
+│          │                  ├─basic
+│          │                  ├─common
+│          │                  ├─coordinator
+│          │                  ├─rest
+│          │                  ├─task
+│          │                  └─workload
+│          └─resources
+└─vagrant
+    └─aws
