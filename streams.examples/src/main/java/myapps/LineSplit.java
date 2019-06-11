@@ -54,7 +54,7 @@ public class LineSplit {
                     result.add(KeyValue.pair(value.toString().toUpperCase(), "1000"));
                     result.add(KeyValue.pair(value.toString().toLowerCase(), "9000"));
                    return result;
-               }).toStream()
+               })//.toStream()
             .to("streams-linesplit-output", Produced.with(Serdes.String(), Serdes.String()));
                //.to("streams-linesplit-output");
 
