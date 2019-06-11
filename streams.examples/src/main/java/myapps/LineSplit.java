@@ -51,8 +51,8 @@ public class LineSplit {
                .flatMap((key,value) -> {
                    System.out.println(key+","+value);
                     List<KeyValue<String, String>> result = new LinkedList<>();
-                    result.add(KeyValue.pair(value.toUpperCase(), "1000"));
-                    result.add(KeyValue.pair(value.toLowerCase(), "9000"));
+                    result.add(KeyValue.pair(value.toString().toUpperCase(), "1000"));
+                    result.add(KeyValue.pair(value.toString().toLowerCase(), "9000"));
                    return result;
                }).toStream()
             .to("streams-linesplit-output", Produced.with(Serdes.String(), Serdes.String()));
