@@ -2,7 +2,11 @@ bin\windows\kafka-console-producer.bat --broker-list 174.137.56.112:9092 --topic
 bin\windows\kafka-console-producer.bat --broker-list 174.137.56.112:9092 --topic streams-plaintext-input
 bin\windows\kafka-console-consumer.bat --bootstrap-server 174.137.56.112:9092     --topic streams-wordcount-output     --from-beginning     --formatter kafka.tools.DefaultMessageFormatter      --property print.key=true      --property print.value=true      --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer      --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
 mvn exec:java -Dexec.mainClass=myapps.TemperatureDemo
+git push "https://$username:$password@174.137.56.112/repo.git"
 
+git pull ssh://root@174.137.56.112:28478/srv/git/my_project.git
+
+git clone user@git.example.com:/srv/git/my_project.git
 
 bin/kafka-topics.sh --create \
     --bootstrap-server 174.137.56.112:9092 \
