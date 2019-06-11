@@ -50,7 +50,7 @@ public class LineSplit {
                    
                   return Arrays.asList(value.toString().split("\\W+"));
                })
-               .to("streams-linesplit-output");
+               //.to("streams-linesplit-output");
 
         final Topology topology = builder.build();
         final KafkaStreams streams = new KafkaStreams(topology, props);
