@@ -22,10 +22,13 @@ import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.ValueMapper;
+import org.apache.kafka.streams.KeyValue;
 
 import java.util.Arrays;
 import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
+import java.util.List;
+import java.util.LinkedList;
 
 /**
  * In this example, we implement a simple LineSplit program using the high-level Streams DSL
@@ -45,11 +48,14 @@ public class LineSplit {
         final StreamsBuilder builder = new StreamsBuilder();
 
         builder.stream("streams-plaintext-input")
-               .flatMapValues(value -> {
-                   System.out.println(value);
-                   
-                  return Arrays.asList(value.toString().split("\\W+"));
-               })
+               .flatMap((key,value) -> {
+                   System.out.println(key+","+value);
+                    List<KeyValue<String, String>> result = new LinkedList<>();
+                    result.add(KeyValue.pair(value.toUpperCase(), "1000"));
+                    result.add(KeyValue.pair(value.toLowerCase(), "9000"));
+                   return result;
+               }).toStream()
+            .to("streams-linesplit-output", Produced.with(Serdes.String(), Serdes.String()));
                //.to("streams-linesplit-output");
 
         final Topology topology = builder.build();
