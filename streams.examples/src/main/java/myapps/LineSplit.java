@@ -48,7 +48,7 @@ public class LineSplit {
                .flatMapValues(value -> {
                    System.out.println(value);
                    
-                  return Arrays.asList(value.toString().split("\\W+"))
+                  return Arrays.asList(value.toString().split("\\W+"));
                })
                .to("streams-linesplit-output");
 
