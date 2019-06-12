@@ -42,9 +42,9 @@ public class ClientKafka {
         // props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         
         AdminClient adminClient=AdminClient.create(props);
-        System.out.println(adminClient.listTopics().listings());
-        System.out.println(adminClient.listTopics().namesToListings());
-        System.out.println(adminClient.listTopics().names());
+        System.out.println(adminClient.listTopics().listings().get());
+        System.out.println(adminClient.listTopics().namesToListings().get());
+        System.out.println(adminClient.listTopics().names().get());
         adminClient.close();
     }
     
