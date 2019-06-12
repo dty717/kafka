@@ -61,7 +61,7 @@ public class ClientKafka {
     
         Producer<String, String> producer = new KafkaProducer<>(props);
         for (int i = 0; i < 100; i++)
-            producer.send(new ProducerRecord<String, String>("test", Integer.toString(i), Integer.toString(i)));
+            producer.send(new ProducerRecord<String, String>("test", "key:"+Integer.toString(i), "value:"+Integer.toString(i)));
         producer.close();
     }
     
