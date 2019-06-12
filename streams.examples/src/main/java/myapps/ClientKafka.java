@@ -25,6 +25,8 @@ import org.apache.kafka.streams.kstream.ValueMapper;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.kstream.Produced;
 import org.apache.kafka.clients.admin.AdminClient;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
 
 import java.util.Arrays;
 import java.util.Properties;
@@ -34,7 +36,7 @@ import java.util.LinkedList;
 
 public class ClientKafka {
     // bin/kafka-topics.sh --list --bootstrap-server localhost:9092
-    public static void main(String[] args) throws Exception {
+    public static void main_list_topic(String[] args) throws Exception {
         Properties props = new Properties();
         // props.put(StreamsConfig.APPLICATION_ID_CONFIG, "streams-linesplit");
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
@@ -46,6 +48,22 @@ public class ClientKafka {
         System.out.println(adminClient.listTopics().namesToListings().get());
         System.out.println(adminClient.listTopics().names().get());
         adminClient.close();
+    }
+    
+    //bin/kafka-console-producer.sh --broker-list localhost:9092 --topic streams-plaintext-input
+    public static void main(String[] args) throws Exception {
+        Properties props = new Properties();
+        props.put("bootstrap.servers", "localhost:9092");
+        props.put("acks", "all");
+        props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+    
+        Producer<String, String> producer = new KafkaProducer<>(props);
+        for (int i = 0; i < 100; i++)
+            producer.send(new ProducerRecord<String, String>("my-topic", Integer.toString(i), Integer.toString(i)));
+    
+        producer.close();
+        
     }
     
 }
