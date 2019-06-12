@@ -34,7 +34,6 @@ import java.util.LinkedList;
 
 public class ClientKafka {
     // bin/kafka-topics.sh --list --bootstrap-server localhost:9092
-    
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
         // props.put(StreamsConfig.APPLICATION_ID_CONFIG, "streams-linesplit");
@@ -46,4 +45,5 @@ public class ClientKafka {
         System.out.println(adminClient.listTopics().names());
         adminClient.close();
     }
+    
 }
